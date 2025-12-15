@@ -28,6 +28,7 @@ bazel_dep(name = "rules_license", version = "1.0.0")
 bazel_dep(name = "googleapis", version = "0.0.0-20250604-de157ca3", repo_name = "com_google_googleapis")
 bazel_dep(name = "googleapis-cc", version = "1.0.0")
 bazel_dep(name = "googleapis-grpc-cc", version = "1.0.0")
+bazel_dep(name = "rules_cc", version = "0.2.10")
 bazel_dep(
     name = "abseil-cpp",
     version = "20250814.0",
